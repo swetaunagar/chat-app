@@ -1,0 +1,33 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .status-danger {
+      margin-top: 3px;
+  }
+
+

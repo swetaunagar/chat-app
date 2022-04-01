@@ -1,0 +1,11 @@
+<nb-layout center>
+    <nb-layout-column>
+        <nb-chat title="Welcome to our chatroom!" size="large">
+            <nb-chat-message *ngFor="let msg of messages" [type]="msg.type" [message]="msg.text" [reply]="msg.reply"
+                [sender]="msg.user.name">
+            </nb-chat-message>
+            <nb-chat-form (send)="sendMessage($event)">
+            </nb-chat-form>
+        </nb-chat>
+    </nb-layout-column>
+</nb-layout>
