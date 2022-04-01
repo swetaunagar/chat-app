@@ -27,7 +27,7 @@ Then go to the project directory and install packages
 cd chat-backend
 npm i
 ```
-After successfull instalation run the app using,
+After successfull installation run the app using,
 ```sh
 npm run dev
 ```
